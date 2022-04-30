@@ -1,1 +1,21 @@
 
+{
+    "name": "Sounding",
+    "description": "Informasi nano store",
+    "website": "-",
+    "logo": "https://telegra.ph/file/64317c4eac38522d2be16.jpg",
+    "repository": "https://github.com/Rizki636/saunding",
+    "env": {
+          "TG_BOT_TOKEN": {"description": "Token bot kamuu","required": true}
+    },
+    "buildpacks": [
+      {"url": "heroku/python"}
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "stack": "heroku-20"
+  }
